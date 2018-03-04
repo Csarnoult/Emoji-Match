@@ -14,4 +14,17 @@ struct Card {
     var isFaceUp = false
     var isMatched = false
     var identifier: Int
+    
+    static var identifierFactory = 0
+    
+    static func getUniqueIdentifier() -> Int {
+        identifierFactory += 1
+        return identifierFactory
+    }
+    
+    //inits typically have the same external name as the internal name (so one parameter)
+    //self is for the cards properties.
+    init() {
+        self.identifier = Card.getUniqueIdentifier()
+    }
 }

@@ -17,6 +17,17 @@ class EmojiMatch {
         
     }
     
+    init(numberOfPairsOfCards: Int) {
+        for _ in 1...numberOfPairsOfCards {
+            //Card is a struct so every time card is being used, it's a copy of Card.
+            let card = Card()
+            cards += [card, card]
+        }
+        //TODO: Shuffle the cards.
+    }
+    
+    
+    
     
     
 }

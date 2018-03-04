@@ -12,6 +12,8 @@
 		864D70BB204642050003EFD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864D70B9204642050003EFD0 /* Main.storyboard */; };
 		864D70BD204642050003EFD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864D70BC204642050003EFD0 /* Assets.xcassets */; };
 		864D70C0204642050003EFD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864D70BE204642050003EFD0 /* LaunchScreen.storyboard */; };
+		868551C1204B86A300845C81 /* Emoji Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868551C0204B86A300845C81 /* Emoji Match.swift */; };
+		868551C3204B87D200845C81 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868551C2204B87D200845C81 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		864D70BC204642050003EFD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864D70BF204642050003EFD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		864D70C1204642050003EFD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868551C0204B86A300845C81 /* Emoji Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Emoji Match.swift"; sourceTree = "<group>"; };
+		868551C2204B87D200845C81 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				864D70B5204642050003EFD0 /* AppDelegate.swift */,
 				864D70B7204642050003EFD0 /* ViewController.swift */,
 				864D70B9204642050003EFD0 /* Main.storyboard */,
+				868551C0204B86A300845C81 /* Emoji Match.swift */,
+				868551C2204B87D200845C81 /* Card.swift */,
 				864D70BC204642050003EFD0 /* Assets.xcassets */,
 				864D70BE204642050003EFD0 /* LaunchScreen.storyboard */,
 				864D70C1204642050003EFD0 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868551C1204B86A300845C81 /* Emoji Match.swift in Sources */,
 				864D70B8204642050003EFD0 /* ViewController.swift in Sources */,
 				864D70B6204642050003EFD0 /* AppDelegate.swift in Sources */,
+				868551C3204B87D200845C81 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //This is the big green arrow that's communicating from your Controller to your Model.
+    var game: EmojiMatch = EmojiMatch()
+    
     var flipCount = 0 {
         didSet {
             flipCountLabel.text = "Flips \(flipCount)"
